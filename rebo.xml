@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cartridge_basiclti_link xmlns="http://www.imsglobal.org/xsd/imslticc_v1p0"
+    xmlns:blti="http://www.imsglobal.org/xsd/imsbasiclti_v1p0"
+    xmlns:lticm="http://www.imsglobal.org/xsd/imslticm_v1p0"
+    xmlns:lticp="http://www.imsglobal.org/xsd/imslticp_v1p0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.imsglobal.org/xsd/imslticc_v1p0
+    http://www.imsglobal.org/profile/cc/ccv1p1/imslticc_v1p0.xsd">
+
+    <blti:title>Rebo LMS App</blti:title>
+    <blti:description>Ứng dụng tích hợp Rebo vào LMS Canvas</blti:description>
+    <blti:launch_url>https://rebolmsapp.tiiny.site/</blti:launch_url>
+    <blti:secure_launch_url>https://rebolmsapp.tiiny.site/</blti:secure_launch_url>
+    <blti:extensions platform="canvas.instructure.com">
+        <lticm:property name="domain">rebolmsapp.tiiny.site</lticm:property>
+        <lticm:property name="privacy_level">public</lticm:property>
+    </blti:extensions>
+</cartridge_basiclti_link>
